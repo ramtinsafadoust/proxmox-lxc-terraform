@@ -13,7 +13,7 @@ resource "proxmox_lxc" "ubuntu" {
   cores        = var.cpucore
   cpulimit     = var.cpulimit
   onboot       = var.startonboot
-  start        = true
+  start        = var.startaftercreate
   tags         = var.tag
   nameserver   = var.dns
 
