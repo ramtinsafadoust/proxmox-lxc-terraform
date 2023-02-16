@@ -1,0 +1,22 @@
+api_url          = "https://172.16.10.2:8006/api2/json"
+api_token_id     = "root@pam!roottoken"
+api_token_secret = "3d22ca2a-ac96-465d-8d34-d8c8ea18d423"
+#########################################################
+target_node      = "pve"
+hostname         = "Terrafrom-machine"
+ostemplate       = "local:vztmpl/ubuntu-20.04-standard_20.04-1_amd64.tar.gz"
+ospassword       = "31107"
+memory           = "2048"
+swap             = "1024"
+cpucore          = "2"
+cpulimit         = "2"
+startonboot      = true
+startaftercreate = true
+tag              = "this is a tag for PVE"
+dns              = "8.8.8.8"
+storagelocation  = "local-lvm"
+disksize         = "80G"
+network_adapter  = "eth0"
+pve_bridge       = "vmbr0"
+ip               = "172.16.10.26/24"
+gateway          = "172.16.10.1"
