@@ -20,3 +20,4 @@ network_adapter  = "eth0"
 pve_bridge       = "vmbr0"
 ip               = "172.16.10.26/24"
 gateway          = "172.16.10.1"
+pm_tls           = true

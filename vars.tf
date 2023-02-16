@@ -67,3 +67,7 @@ variable "ip" {
 variable "gateway" {
   description = "vm gateway"
 }
+variable "pm_tls" {
+  description = "connect with/without tls to your pve"
+
+}
